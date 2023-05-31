@@ -14,7 +14,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@game-react/game-react/ui-shared": [
+        "libs/game-react/ui-shared/src/index.ts"
+      ],
+      "@game-react/game-react/util-formatters": [
+        "libs/game-react/util-formatters/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
